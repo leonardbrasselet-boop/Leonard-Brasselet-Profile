@@ -1,1 +1,139 @@
-# Leonard-Brasselet-Profile
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Léonard Brasselet | Profile</title>
+    <meta name="description" content="This is Léonard Brasselet's profile page">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background-color: #f4f7fb;
+        color: #1f2937;
+        line-height: 1.6;
+      }
+
+      .container {
+        width: 900px;
+        max-width: calc(100% - 40px);
+        margin: 40px auto;
+      }
+
+      .card {
+        background: white;
+        padding: 32px;
+        margin-bottom: 24px;
+        border-radius: 18px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #111827;
+      }
+
+      h2 {
+        font-size: 26px;
+        margin-bottom: 12px;
+        color: #1d4ed8;
+      }
+
+      p {
+        font-size: 17px;
+        color: #374151;
+        margin: 0 auto;
+        max-width: 700px;
+      }
+
+      .profile-img {
+        width: 170px;
+        height: 170px;
+        object-fit: cover;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto 20px;
+        border: 5px solid #e5edff;
+      }
+
+      .social-links {
+        list-style: none;
+        padding: 0;
+        margin: 18px 0 0;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+      }
+
+      .social-links a {
+        text-decoration: none;
+        color: #2563eb;
+        font-weight: 600;
+      }
+
+      .social-links a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="card">
+        <h1>Hello, I'm Léonard 👋</h1>
+        <img src="profile.jpg" alt="Léonard Brasselet" class="profile-img">
+        <p>
+          I'm 18 years old and I love <strong>sports</strong>, <strong>music</strong>, and <strong>reading</strong>.
+          I'm also starting my journey in coding 🤓.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>🏀 Sports</h2>
+        <p>
+          I enjoy staying active and practicing different sports. It helps me stay fit,
+          focused, and motivated every day.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>🎵 Music</h2>
+        <p>
+          Music is a big part of my life. I love listening to different genres and discovering new artists.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>📚 Reading</h2>
+        <p>
+          Reading helps me learn new things, discover different ideas, and relax in my free time.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Contact me</h2>
+        <div data-tf-live="YOUR_TYPEFORM_ID"></div>
+        <script src="//embed.typeform.com/next/embed.js"></script>
+      </div>
+
+      <div class="card">
+        <h2>Follow me</h2>
+        <ul class="social-links">
+          <li>
+            <a href="https://www.instagram.com/leonard.brasselet/" target="_blank">Instagram</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/leonard-brasselet-4338802b7/" target="_blank">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </body>
+</html>
